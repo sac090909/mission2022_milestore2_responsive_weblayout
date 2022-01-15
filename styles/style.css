@@ -1,0 +1,179 @@
+/* Google font import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: aquamarine;
+  margin: 0;
+}
+
+/* Header - Navitiaon - CSS */
+
+.influ-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 75px;
+}
+.influ-header-h1 h1 {
+  font-size: 24px;
+}
+
+.influ-header-nav ul li {
+  list-style: none;
+  margin-right: 25px;
+  font-size: 16px;
+}
+.influ-header-nav ul {
+  display: flex;
+}
+
+.influ-header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.fas {
+  margin-right: 25px;
+}
+
+/* Section - Start Journey */
+
+.influ-journey-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: gainsboro;
+  height: 400px;
+}
+
+.influ-journey-des {
+  width: 600px;
+}
+.influ-journey-des h1 {
+  font-size: 52px;
+  margin-bottom: 0;
+}
+.influ-journey-des p {
+  margin-top: 2px;
+}
+
+.influ-journey-des-button {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 46px;
+  background-color: #e02c6d;
+  border-radius: 23px;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.influ-journey-des-button input {
+  border: none;
+  background-color: #e02c6d;
+  color: white;
+}
+
+.influ-journey-des-button .fas {
+  color: white;
+}
+/* Company Logo Icons */
+
+.influ-logo-icons {
+  background-color: antiquewhite;
+  padding: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 75px;
+}
+
+/* Pouploar Collecton */
+.influ-collection-sec {
+  background-color: violet;
+  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.influ-collection-sec h2 {
+  text-align: center;
+  font-size: 28px;
+}
+.influ-collection-lists {
+  background-color: green;
+}
+.influ-collection-item {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px white;
+  border-radius: 5px;
+}
+
+.influ-collection-item img {
+  width: 300px;
+  height: 250px;
+}
+
+.item-des p:first-child {
+  font-size: 28px;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.item-des p:nth-child(2) {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.item-des-rating {
+  display: flex;
+  align-items: center;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 30px;
+}
+
+.item-des-rating .fa-star {
+  color: orange;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.item-des-rating p:nth-child(6) {
+  font-size: 15px;
+}
+.item-des-des {
+  margin-top: 0px;
+  font-size: 15px;
+}
+.influ-collection-lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  justify-items: center;
+  align-content: stretch;
+  align-items: center;
+  grid-row-gap: 20px;
+}
+footer {
+  margin-top: 50px;
+}
+/* Footer */
+.footer-text {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
